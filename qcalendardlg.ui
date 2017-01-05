@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QCalendarDlg</class>
+ <widget class="QDialog" name="QCalendarDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>693</width>
+    <height>564</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>微软雅黑</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>71</y>
+     <width>692</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget
+{
+ border:1px solid rgb(0, 0, 0);
+}</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item row="1" column="0">
+     <widget class="QDateCellWidget" name="widget_1" native="true"/>
+    </item>
+    <item row="1" column="1">
+     <widget class="QDateCellWidget" name="widget_2" native="true"/>
+    </item>
+    <item row="1" column="2">
+     <widget class="QDateCellWidget" name="widget_3" native="true"/>
+    </item>
+    <item row="1" column="3">
+     <widget class="QDateCellWidget" name="widget_4" native="true"/>
+    </item>
+    <item row="1" column="4">
+     <widget class="QDateCellWidget" name="widget_5" native="true"/>
+    </item>
+    <item row="1" column="5">
+     <widget class="QDateCellWidget" name="widget_6" native="true"/>
+    </item>
+    <item row="1" column="6">
+     <widget class="QDateCellWidget" name="widget_7" native="true"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label_2">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+color:rgb(255, 255, 255);
+ border-width: 1px;
+ border-style: solid;
+ border-color: rgb(0, 0, 0);
+ border-style-right:none;
+ border-style-bottom:none;
+ background-color:rgb(170, 255, 127)
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>星期一</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="label_3">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+color:rgb(255, 255, 255);
+ border-width: 1px;
+ border-style: solid;
+ border-color: rgb(0, 0, 0);
+ border-style-right:none;
+ border-style-bottom:none;
+ background-color:rgb(170, 255, 127)
+}</string>
+      </property>
+      <property name="text">
+       <string>星期二</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLabel" name="label_4">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+color:rgb(255, 255, 255);
+ border-width: 1px;
+ border-style: solid;
+ border-color: rgb(0, 0, 0);
+ border-style-right:none;
+ border-style-bottom:none;
+ background-color:rgb(170, 255, 127)
+}</string>
+      </property>
+      <property name="text">
+       <string>星期三</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QLabel" name="label_5">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+color:rgb(255, 255, 255);
+ border-width: 1px;
+ border-style: solid;
+ border-color: rgb(0, 0, 0);
+ border-style-right:none;
+ border-style-bottom:none;
+ background-color:rgb(170, 255, 127)
+}</string>
+      </property>
+      <property name="text">
+       <string>星期四</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="QLabel" name="label_6">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+color:rgb(255, 255, 255);
+ border-width: 1px;
+ border-style: solid;
+ border-color: rgb(0, 0, 0);
+ border-style-right:none;
+ border-style-bottom:none;
+ background-color:rgb(170, 255, 127)
+}</string>
+      </property>
+      <property name="text">
+       <string>星期五</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="6">
+     <widget class="QLabel" name="label_7">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+color:rgb(255, 0, 0);
+ border-width: 1px;
+ border-style: solid;
+ border-color: rgb(0, 0, 0);
+border-right-style:none;
+ background-color:rgb(170, 255, 127)
+}</string>
+      </property>
+      <property name="text">
+       <string>星期六</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QDateCellWidget" name="widget_8" native="true"/>
+    </item>
+    <item row="2" column="1">
+     <widget class="QDateCellWidget" name="widget_9" native="true"/>
+    </item>
+    <item row="2" column="2">
+     <widget class="QDateCellWidget" name="widget_10" native="true"/>
+    </item>
+    <item row="2" column="3">
+     <widget class="QDateCellWidget" name="widget_11" native="true"/>
+    </item>
+    <item row="2" column="4">
+     <widget class="QDateCellWidget" name="widget_12" native="true"/>
+    </item>
+    <item row="2" column="5">
+     <widget class="QDateCellWidget" name="widget_13" native="true"/>
+    </item>
+    <item row="2" column="6">
+     <widget class="QDateCellWidget" name="widget_14" native="true"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QDateCellWidget" name="widget_15" native="true"/>
+    </item>
+    <item row="3" column="1">
+     <widget class="QDateCellWidget" name="widget_16" native="true"/>
+    </item>
+    <item row="3" column="2">
+     <widget class="QDateCellWidget" name="widget_17" native="true"/>
+    </item>
+    <item row="3" column="3">
+     <widget class="QDateCellWidget" name="widget_18" native="true"/>
+    </item>
+    <item row="3" column="4">
+     <widget class="QDateCellWidget" name="widget_19" native="true"/>
+    </item>
+    <item row="3" column="5">
+     <widget class="QDateCellWidget" name="widget_20" native="true"/>
+    </item>
+    <item row="3" column="6">
+     <widget class="QDateCellWidget" name="widget_21" native="true"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QDateCellWidget" name="widget_22" native="true"/>
+    </item>
+    <item row="4" column="1">
+     <widget class="QDateCellWidget" name="widget_23" native="true"/>
+    </item>
+    <item row="4" column="2">
+     <widget class="QDateCellWidget" name="widget_24" native="true"/>
+    </item>
+    <item row="4" column="3">
+     <widget class="QDateCellWidget" name="widget_25" native="true"/>
+    </item>
+    <item row="4" column="4">
+     <widget class="QDateCellWidget" name="widget_26" native="true"/>
+    </item>
+    <item row="4" column="5">
+     <widget class="QDateCellWidget" name="widget_27" native="true"/>
+    </item>
+    <item row="4" column="6">
+     <widget class="QDateCellWidget" name="widget_28" native="true"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QDateCellWidget" name="widget_29" native="true"/>
+    </item>
+    <item row="5" column="1">
+     <widget class="QDateCellWidget" name="widget_30" native="true"/>
+    </item>
+    <item row="5" column="2">
+     <widget class="QDateCellWidget" name="widget_31" native="true"/>
+    </item>
+    <item row="5" column="3">
+     <widget class="QDateCellWidget" name="widget_32" native="true"/>
+    </item>
+    <item row="5" column="4">
+     <widget class="QDateCellWidget" name="widget_33" native="true"/>
+    </item>
+    <item row="5" column="5">
+     <widget class="QDateCellWidget" name="widget_34" native="true"/>
+    </item>
+    <item row="5" column="6">
+     <widget class="QDateCellWidget" name="widget_35" native="true"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QDateCellWidget" name="widget_36" native="true"/>
+    </item>
+    <item row="6" column="1">
+     <widget class="QDateCellWidget" name="widget_37" native="true"/>
+    </item>
+    <item row="6" column="2">
+     <widget class="QDateCellWidget" name="widget_38" native="true"/>
+    </item>
+    <item row="6" column="3">
+     <widget class="QDateCellWidget" name="widget_39" native="true"/>
+    </item>
+    <item row="6" column="4">
+     <widget class="QDateCellWidget" name="widget_40" native="true"/>
+    </item>
+    <item row="6" column="5">
+     <widget class="QDateCellWidget" name="widget_41" native="true"/>
+    </item>
+    <item row="6" column="6">
+     <widget class="QDateCellWidget" name="widget_42" native="true"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>35</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+color:rgb(255, 0, 0);
+ border-width: 1px;
+ border-style: solid;
+ border-color: rgb(0, 0, 0);
+border-right-style:none;
+ background-color:rgb(170, 255, 127)
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>星期日</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label</zorder>
+   <zorder>widget_1</zorder>
+   <zorder>widget_2</zorder>
+   <zorder>widget_3</zorder>
+   <zorder>widget_5</zorder>
+   <zorder>widget_6</zorder>
+   <zorder>widget_7</zorder>
+   <zorder>widget_4</zorder>
+   <zorder>widget_8</zorder>
+   <zorder>widget_11</zorder>
+   <zorder>widget_13</zorder>
+   <zorder>widget_12</zorder>
+   <zorder>widget_10</zorder>
+   <zorder>widget_9</zorder>
+   <zorder>widget_14</zorder>
+   <zorder>widget_15</zorder>
+   <zorder>widget_18</zorder>
+   <zorder>widget_20</zorder>
+   <zorder>widget_19</zorder>
+   <zorder>widget_17</zorder>
+   <zorder>widget_16</zorder>
+   <zorder>widget_21</zorder>
+   <zorder>widget_22</zorder>
+   <zorder>widget_25</zorder>
+   <zorder>widget_27</zorder>
+   <zorder>widget_26</zorder>
+   <zorder>widget_24</zorder>
+   <zorder>widget_23</zorder>
+   <zorder>widget_28</zorder>
+   <zorder>widget_29</zorder>
+   <zorder>widget_32</zorder>
+   <zorder>widget_34</zorder>
+   <zorder>widget_33</zorder>
+   <zorder>widget_31</zorder>
+   <zorder>widget_30</zorder>
+   <zorder>widget_35</zorder>
+   <zorder>widget_36</zorder>
+   <zorder>widget_39</zorder>
+   <zorder>widget_41</zorder>
+   <zorder>widget_40</zorder>
+   <zorder>widget_38</zorder>
+   <zorder>widget_37</zorder>
+   <zorder>widget_42</zorder>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>691</width>
+     <height>43</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QFrame
+{
+border:1px solid rgb(0, 0, 0);
+border-radius:0px;
+border-left-style:none;
+border-right-style;none;
+border-bottom-style:none;
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QLabel" name="label_8">
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>年</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBoxYear">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>79</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_9">
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>月</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBoxMonth">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>78</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_10">
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>日</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBoxDay">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="editable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>79</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_11">
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>回到今天</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QDateCellWidget</class>
+   <extends>QWidget</extends>
+   <header>qdatecellwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
