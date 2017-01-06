@@ -19,7 +19,7 @@
    <string/>
   </property>
   <property name="styleSheet">
-   <string notr="true">QWidget
+   <string notr="true">.QWidget
 {
  border:1px dashed rgb(255, 0, 0);
  border-left-style:none;
@@ -72,14 +72,22 @@ border-style:none;
       <string notr="true">QLabel
 {
 border-style:none;
-color:rgb(85, 170, 0)
 }</string>
      </property>
      <property name="text">
       <string>正月初一</string>
      </property>
+     <property name="scaledContents">
+      <bool>false</bool>
+     </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
+     </property>
+     <property name="wordWrap">
+      <bool>false</bool>
+     </property>
+     <property name="margin">
+      <number>1</number>
      </property>
     </widget>
    </item>

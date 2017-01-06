@@ -18,6 +18,9 @@ public:
 public:
     void setGongLiDay(const QString& strDay);
     void setNongLiDay(const QString& strDay);
+
+    void setNongLiDay(const QColor& color,const QString& strDay);
+
     void setDays(const QString& strGlDay,const QString & strNlDay);
     void SetIndex(const int& index);
 private:

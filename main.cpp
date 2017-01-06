@@ -25,10 +25,5 @@ int main(int argc, char *argv[])
    QLoginDlg m_dlg;
    m_dlg.show();
 
-    //MainWindow w;`
-    // w.show();
-
-
-
     return a.exec();
 }

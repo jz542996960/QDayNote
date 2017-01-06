@@ -28,6 +28,17 @@ void QDateCellWidget::setNongLiDay(const QString &strDay)
    ui->label_n->setText(strDay);
 }
 
+void QDateCellWidget::setNongLiDay(const QColor& color,const QString& strDay)
+{
+    //ui->label_n->setProperty("isnongli","true");
+    QPalette pa;
+    pa.setColor(QPalette::WindowText,Qt::red);
+    ui->label_n->setPalette(pa);
+    ui->label_n->setText(strDay);
+
+
+}
+
 void QDateCellWidget::setDays(const QString &strGlDay, const QString &strNlDay)
 {
    ui->label_g->setText(strGlDay);
@@ -38,6 +49,8 @@ void QDateCellWidget::InitView()
 {
   // QTool::setDlgNoTitle(this);
     m_index = 0;
+
+
 }
 
 void QDateCellWidget::paintEvent(QPaintEvent *event)

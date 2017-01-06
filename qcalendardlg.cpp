@@ -6,6 +6,7 @@ int yearDays[12] = {31,30,31,30,31,30,31,31,30,31,30,31};//每月有几天
 
 
 QString rq2[42]={QStringLiteral("")};//存放农历日期
+int     colorAry[42] = {0}; //存放颜色信息
 
 QCalendarDlg::QCalendarDlg(QWidget *parent) :
     QDialog(parent),
@@ -182,6 +183,7 @@ void QCalendarDlg::InitWidgetDate()//根据年份月份显示日历
           }
       }
     }
+    colorAry[wCurGDayIndex + wDayofWeek_1] = tmp;
     wCurLunarDayIndex++;
     wCurGDayIndex++;
   }
@@ -189,7 +191,8 @@ void QCalendarDlg::InitWidgetDate()//根据年份月份显示日历
 
   for(int i=0;i<42;i++)
   {
-    dateWidgetVec[i]->setNongLiDay(rq2[i]);
+     QColor color = QTool::getColor(colorAry[i]);
+     dateWidgetVec[i]->setNongLiDay(color,rq2[i]);
   }
 
 

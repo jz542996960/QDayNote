@@ -40,3 +40,8 @@ QString QTool::IntToQString(int value)
     strRet = strValuse.setNum(value);
     return strRet;
 }
+
+QColor QTool::getColor(int temp)
+{
+  return Qt::red;
+}
